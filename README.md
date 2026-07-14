@@ -1,18 +1,9 @@
-## Hi there 👋
+<img 
+src="https://github-stats-extended.vercel.app/api?username=tianlingmc&count_private=true&theme=calm&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" 
+alt="Tianling's GitHub stats" 
+height="185px"/>
 
-<!--
-**tianlingmc/tianlingmc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=tianlingmc)](https://github.com/stats-organization/github-stats-extended)
+<img 
+src="https://github-stats-extended.vercel.app/api/top-langs/?username=tianlingmc&layout=compact&langs_count=8&theme=calm&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" 
+alt="Top Langs" 
+height="185px"/>
