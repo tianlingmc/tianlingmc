@@ -1,8 +1,6 @@
 ## W E L C O M E !
 
-欢迎来到我的主页！
-
----
+> 欢迎来到我的主页！
 
 <a href="https://github.com/tianlingmc">
 <img src="https://github-stats-extended.vercel.app/api?username=tianlingmc&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=circle" alt="Tianling's GitHub stats" height="195px" align="top"/>
