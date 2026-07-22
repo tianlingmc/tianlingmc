@@ -1,24 +1,26 @@
-## W E L C O M E !
-
-**欢迎来到我的主页！**
-
-独立全栈开发者 / 凌云海工作室（MCLINYUNHAI）创始人
-
-热爱技术与创作的独立开发者
-
-> 喜欢探索新技术，热衷于将创意转化为实际。
-
 ---
+<div align="center">
 
-<a href="https://github.com/tianlingmc">
-<img src="https://github-stats-extended.vercel.app/api?username=tianlingmc&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=circle" alt="Tianling's GitHub stats" height="195px" align="top"/>
-</a>
-&nbsp;
-<a href="https://github.com/tianlingmc">
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tianlingmc&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" alt="Top Langs" height="195px" align="top"/>
-</a>
+<img src="https://capsule-render.vercel.app/api?type=slice&height=80&section=header&text=&color=0:8A9A70,100:6B7E4F&animation=fadeIn" alt="top line"/>
 
----
+<br>
+
+<h3 align="center">Hi there, I'm <a href="https://github.com/LanRhyme">LanRhyme</a> 👋</h3>
+
+<p align="center">
+  <em>An amateur developer & casual illustrator</em>
+</p>
+
+<br>
+
+<div align="center">
+
+<a href="https://lanrhyme.top/"><img src="https://img.shields.io/badge/Website-6B7E4F?style=flat-square&logo=google-chrome&logoColor=e8f0d8" alt="Website"></a>
+<a href="https://space.bilibili.com/496901387"><img src="https://img.shields.io/badge/Bilibili-8A9A70?style=flat-square&logo=bilibili&logoColor=e8f0d8" alt="Bilibili"></a>
+<a href="https://www.ifdian.net/a/LanRhyme"><img src="https://img.shields.io/badge/爱发电-8A9A70?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2U4ZjBkOCIgZD0iTTExIDIxLjl2LTguMUg1LjRjLS43IDAtMS0uNi0uNy0xLjJsNi43LTExLjFjLjQtLjYgMS4xLS42IDEuNiAwbDUuOCA5LjZjLjQuNi4xIDEuMi0uNyAxLjJoLTUuNnY3LjhjMCAuOC0uOSAxLjEtMS4zLjVsLS4yLS43eiIvPjwvc3ZnPg==&logoColor=e8f0d8" alt="Afdian"></a>
+<img src="https://komarev.com/ghpvc/?username=LanRhyme&color=6B7E4F&style=flat-square&label=Profile+Views" alt="visitors">
+
+</div>
 
 <br>
 
@@ -57,15 +59,25 @@
 
 <br>
 
+<a href="https://github.com/tianlingmc">
+<img src="https://github-stats-extended.vercel.app/api?username=tianlingmc&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=circle" alt="Tianling's GitHub stats" height="195px" align="top"/>
+</a>
+&nbsp;
+<a href="https://github.com/tianlingmc">
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tianlingmc&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" alt="Top Langs" height="195px" align="top"/>
+</a>
+
+---
 ## GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=tianlingmc&show_icons=true&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=8a9a70&text_color=e8f0d8&icon_color=6b7e4f&border_radius=12&count_private=true" height="170">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=tianlingmc&layout=compact&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=8a9a70&text_color=e8f0d8&langs_count=6&border_radius=12" height="170">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=tianlingmc&show_icons=true&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=165dff&text_color=e6edf7&icon_color=4080ff&border_radius=12&count_private=true" height="170">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=tianlingmc&layout=compact&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=165dff&text_color=e6edf7&langs_count=6&border_radius=12" height="170">
 
 <br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=tianlingmc&theme=gruvbox-dark&hide_border=true&background=0d1117&stroke=4a5a35&ring=8a9a70&fire=8a9a70&currStreakNum=e8f0d8&sideNums=6b7e4f&dates=e8f0d8&border_radius=12" alt="streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=tianlingmc&theme=gruvbox-dark&hide_border=true&background=0d1117&stroke=103fb8&ring=165dff&fire=165dff&currStreakNum=e6edf7&sideNums=4080ff&dates=e6edf7&border_radius=12" alt="streak"/>
 
+</div>
 </div>
