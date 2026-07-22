@@ -8,8 +8,6 @@
 
 <br>
 
-<br>
-
 ## Languages & Frameworks
 
 <div align="center">
