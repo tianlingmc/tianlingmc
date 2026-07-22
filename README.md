@@ -2,8 +2,6 @@
 
 <h3 align="center">Hi , I'm <a href="https://github.com/tianlingmc">天灵</a>！</h3>
 
-<br>
-
 <p align="center">
   <em>An independent full-stack developer</em>
 </p>
