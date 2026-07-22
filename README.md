@@ -11,8 +11,8 @@
 <div align="center">
   <a href="https://tianlingblog.mclinyunhai.com"><img alt="Version" src="https://img.shields.io/badge/博客-天灵の小窝-00d8ff?style=flat-square"></a>
   <a href="https://www.mclinyunhai.com"><img alt="License" src="https://img.shields.io/badge/组织-凌云海工作室-00d8ff?style=flat-square"></a>
-  <a href="https://github.com/tianlingmc/edex-ui-plus/releases"><img alt="Downloads" src="https://img.shields.io/badge/下载-安装包-00d8ff?style=flat-square"></a>
-  <a href="https://github.com/GitSquared/edex-ui"><img alt="Based on" src="https://img.shields.io/badge/基于-eDEX--UI-00d8ff?style=flat-square"></a>
+  <a href="https://bbs.mclinyunhai.com"><img alt="Downloads" src="https://img.shields.io/badge/交流-凌云海论坛-00d8ff?style=flat-square"></a>
+  <a href="tencent://message/?uin=715617490"><img alt="Based on" src="https://img.shields.io/badge/联系-QQ 715617490-00d8ff?style=flat-square"></a>
 </div>
 
 <br>
