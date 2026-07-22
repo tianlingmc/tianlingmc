@@ -1,11 +1,16 @@
 ---
+<a href="https://github.com/tianlingmc">
+<img src="https://github-stats-extended.vercel.app/api?username=tianlingmc&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=circle" alt="Tianling's GitHub stats" height="195px" align="top"/>
+</a>
+&nbsp;
+<a href="https://github.com/tianlingmc">
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tianlingmc&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" alt="Top Langs" height="195px" align="top"/>
+</a>
+---
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=slice&height=80&section=header&text=&color=0:8A9A70,100:6B7E4F&animation=fadeIn" alt="top line"/>
-
-<br>
-
-<h3 align="center">Hi there, I'm <a href="https://github.com/LanRhyme">LanRhyme</a> 👋</h3>
+<h3 align="center">Hi there, I'm <a href="https://github.com/LanRhyme">Tianling</a> 👋</h3>
 
 <p align="center">
   <em>An amateur developer & casual illustrator</em>
@@ -59,15 +64,6 @@
 
 <br>
 
-<a href="https://github.com/tianlingmc">
-<img src="https://github-stats-extended.vercel.app/api?username=tianlingmc&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&rank_icon=circle" alt="Tianling's GitHub stats" height="195px" align="top"/>
-</a>
-&nbsp;
-<a href="https://github.com/tianlingmc">
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tianlingmc&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" alt="Top Langs" height="195px" align="top"/>
-</a>
-
----
 ## GitHub Stats
 
 <div align="center">
