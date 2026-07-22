@@ -9,10 +9,10 @@
 <br>
 
 <div align="center">
-  <a href="https://tianlingblog.mclinyunhai.com"><img alt="Blog" src="https://img.shields.io/badge/Blog-天灵の小窝-00d8ff?style=flat-square"></a>
-  <a href="https://www.mclinyunhai.com"><img alt="Studio" src="https://img.shields.io/badge/Studio-凌云海工作室-00d8ff?style=flat-square"></a>
-  <a href="https://bbs.mclinyunhai.com"><img alt="Forum" src="https://img.shields.io/badge/Forum-凌云海论坛-00d8ff?style=flat-square"></a>
-  <a href="https://im.qq.com"><img alt="Contact" src="https://img.shields.io/badge/Contact-QQ 715617490-00d8ff?style=flat-square"></a>
+  <a href="https://tianlingblog.mclinyunhai.com"><img alt="Blog" src="https://img.shields.io/badge/ Blog - 天灵の小窝 -00d8ff?style=flat-square"></a>
+  <a href="https://www.mclinyunhai.com"><img alt="Studio" src="https://img.shields.io/badge/ Studio - 凌云海工作室 -00d8ff?style=flat-square"></a>
+  <a href="https://bbs.mclinyunhai.com"><img alt="Forum" src="https://img.shields.io/badge/ Forum - 凌云海论坛 -00d8ff?style=flat-square"></a>
+  <a href="https://im.qq.com"><img alt="Contact" src="https://img.shields.io/badge/ Contact - QQ 715617490 -00d8ff?style=flat-square"></a>
 </div>
 
 <br>
