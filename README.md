@@ -2,9 +2,14 @@
 
 <h3 align="center">Hi , I'm <a href="https://github.com/tianlingmc">天灵</a>！</h3>
 
+<br>
+
 <p align="center">
   <em>An independent full-stack developer</em>
 </p>
+
+<br>
+
 <p align="center">
   <a href="https://github.com/tianlingmc/edex-ui-plus/releases"><img alt="Version" src="https://img.shields.io/badge/版本-v1.2.0-00d8ff?style=flat-square"></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/许可-GPLv3-00d8ff?style=flat-square"></a>
