@@ -55,6 +55,23 @@
 ## GitHub Stats
 
 <div align="center">
+  <!-- Stats Card -->
+  <picture>
+    <!-- 深色模式引用 -->
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+    <!-- 浅色模式引用 -->
+    <img src="./profile/stats-light.svg" height="170">
+  </picture>
+
+  <!-- Top Languages Card -->
+  <picture>
+    <!-- 深色模式引用 -->
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
+    <!-- 浅色模式引用 -->
+    <img src="./profile/top-langs-light.svg" height="170">
+  </picture>
+</div>
+<!-- <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=tianlingmc&show_icons=true&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=165dff&text_color=e6edf7&icon_color=4080ff&border_radius=12&count_private=true">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=tianlingmc&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=165dff&text_color=222222&icon_color=4080ff&border_radius=12&count_private=true" height="170">
@@ -63,7 +80,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=tianlingmc&layout=compact&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=165dff&text_color=e6edf7&langs_count=6&border_radius=12">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=tianlingmc&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=165dff&text_color=222222&langs_count=6&border_radius=12" height="170">
-</picture>
+</picture> -->
 
 <br>
 
