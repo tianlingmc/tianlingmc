@@ -1,60 +1,15 @@
-name: Update README cards
-
-on:
-  schedule:
-    - cron: "0 3 * * *"   # 每天 UTC 3:00 自动运行
-  workflow_dispatch:       # 允许手动触发
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-
-      # --- 生成 Stats 卡片 (深色) ---
-      - name: Generate Stats Dark
-        uses: readme-tools/github-readme-stats-action@v1
+      # --- 生成 Streak Stats 卡片 (深色) ---
+      - name: Generate Streak Stats Dark
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=165dff&text_color=e6edf7&icon_color=4080ff&border_radius=12&count_private=true
-          path: profile/stats-dark.svg
-          token: ${{ secrets.GH_PAT }} # 注意替换为你的 PAT 密钥名
-
-      # --- 生成 Stats 卡片 (浅色) ---
-      - name: Generate Stats Light
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=165dff&text_color=222222&icon_color=4080ff&border_radius=12&count_private=true
-          path: profile/stats-light.svg
+          options: user=${{ github.repository_owner }}&theme=gruvbox-dark&hide_border=true&background=0d1117&stroke=103fb8&ring=165dff&fire=165dff&currStreakNum=e6edf7&sideNums=4080ff&dates=e6edf7&border_radius=12
+          path: profile/streak-dark.svg
           token: ${{ secrets.GH_PAT }}
 
-      # --- 生成 Top Languages 卡片 (深色) ---
-      - name: Generate Top Langs Dark
-        uses: readme-tools/github-readme-stats-action@v1
+      # --- 生成 Streak Stats 卡片 (浅色) ---
+      - name: Generate Streak Stats Light
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=165dff&text_color=e6edf7&langs_count=6&border_radius=12
-          path: profile/top-langs-dark.svg
+          options: user=${{ github.repository_owner }}&theme=default&hide_border=true&background=ffffff&stroke=c6dafc&ring=165dff&fire=165dff&currStreakNum=222222&sideNums=4080ff&dates=333333&border_radius=12
+          path: profile/streak-light.svg
           token: ${{ secrets.GH_PAT }}
-
-      # --- 生成 Top Languages 卡片 (浅色) ---
-      - name: Generate Top Langs Light
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=165dff&text_color=222222&langs_count=6&border_radius=12
-          path: profile/top-langs-light.svg
-          token: ${{ secrets.GH_PAT }}
-
-      # --- 提交所有生成的文件 ---
-      - name: Commit cards
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
-          git push
