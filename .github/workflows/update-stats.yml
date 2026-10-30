@@ -1,11 +1,64 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 每天 UTC 3:00 (北京时间 11:00) 自动运行
+  workflow_dispatch:       # 允许你手动点击按钮触发
+
+permissions:
+  contents: write          # 允许工作流提交生成的文件
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
       # ==========================================
-      # 3. Streak Stats 卡片 (统一青色系)
+      # 1. Stats 卡片 (标题和图标统一青色)
+      # ==========================================
+      - name: Generate Stats Dark
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=00D8FF&text_color=e6edf7&icon_color=00D8FF&border_radius=12&count_private=true
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Generate Stats Light
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=00D8FF&text_color=222222&icon_color=00D8FF&border_radius=12&count_private=true
+          path: profile/stats-light.svg
+          token: ${{ secrets.GH_PAT }}
+
+      # ==========================================
+      # 2. Top Languages 卡片 (标题统一青色)
+      # ==========================================
+      - name: Generate Top Langs Dark
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=00D8FF&text_color=e6edf7&langs_count=6&border_radius=12
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Generate Top Langs Light
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=00D8FF&text_color=222222&langs_count=6&border_radius=12
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GH_PAT }}
+
+      # ==========================================
+      # 3. Streak Stats 卡片 (全青色定制版)
       # ==========================================
       - name: Generate Streak Stats Dark
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          # 修改了 stroke=00D8FF (分割线变青色)
-          # 修改了 sideNums=00D8FF (左右数字变青色)
+          # 分割线(stroke)、圆环(ring)、火苗(fire)、中间标签(currStreakLabel)、左右数字(sideNums)全部改为 00D8FF
           options: user=${{ github.repository_owner }}&theme=gruvbox-dark&hide_border=true&background=0d1117&stroke=00D8FF&ring=00D8FF&fire=00D8FF&currStreakNum=e6edf7&currStreakLabel=00D8FF&sideNums=00D8FF&sideLabels=e6edf7&dates=e6edf7&border_radius=12
           path: profile/streak-dark.svg
           token: ${{ secrets.GH_PAT }}
@@ -13,7 +66,17 @@
       - name: Generate Streak Stats Light
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          # 浅色模式下同理，分割线和数字变青色
           options: user=${{ github.repository_owner }}&theme=default&hide_border=true&background=ffffff&stroke=00D8FF&ring=00D8FF&fire=00D8FF&currStreakNum=222222&currStreakLabel=00D8FF&sideNums=00D8FF&sideLabels=333333&dates=333333&border_radius=12
           path: profile/streak-light.svg
           token: ${{ secrets.GH_PAT }}
+
+      # ==========================================
+      # 4. 提交所有生成的文件
+      # ==========================================
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push
