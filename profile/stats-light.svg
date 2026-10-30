@@ -9,11 +9,11 @@
         aria-labelledby="descId"
       >
         <title id="titleId">&#22825;&#28789;'s GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 2, Total Commits  (last year) : 163, Total PRs: 0, Total Issues: 0, Contributed to (last year): 2</desc>
+        <desc id="descId">Total Stars Earned: 2, Total Commits  (last year) : 167, Total PRs: 0, Total Issues: 0, Contributed to (last year): 2</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #165dff;
+            fill: #00D8FF;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #4080ff;
+      fill: #00D8FF;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #165dff;
+      stroke: #00D8FF;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #165dff;
+      stroke: #00D8FF;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 232.8747187158734;
+        stroke-dashoffset: 232.58071252085418;
       }
     }
   
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >163</text>
+      >167</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
